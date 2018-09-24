@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../rabbitmqoperationconnectormule" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../rabbitmqoperationconnectormule/src/main/java/com/telstra/ncs/mule/rabbitmqConnector/utils/SSLSocketFactoryWrapper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-config-mule" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../tmf-common-mule" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/../tmf-common-mule/src/main/java/com/telstra/ncs/mule/extension/utils/SSLSocketFactoryWrapper.java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../rabbitmqoperationconnectormule/rabbitmqoperationconnectormule.iml" filepath="$PROJECT_DIR$/../rabbitmqoperationconnectormule/rabbitmqoperationconnectormule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabittssl.iml" filepath="$PROJECT_DIR$/.idea/modules/rabittssl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabittssl_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rabittssl_main.iml" group="rabittssl" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabittssl_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rabittssl_test.iml" group="rabittssl" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-config-mule/spring-cloud-config-mule.iml" filepath="$PROJECT_DIR$/../spring-cloud-config-mule/spring-cloud-config-mule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test.iml" filepath="$PROJECT_DIR$/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testspring/testspring.iml" filepath="$PROJECT_DIR$/testspring/testspring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tmf-common-mule/tmf-common-mule.iml" filepath="$PROJECT_DIR$/../tmf-common-mule/tmf-common-mule.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test" />
+        <module name="testspring" />
+      </profile>
+      <profile name="Annotation profile for rabbitmqoperationconnectormule" enabled="true">
+        <sourceOutputDir name="target/classes/META-INF" />
+        <sourceTestOutputDir name="target/generated-sources/apt-test" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="extension.version" value="1.0-SNAPSHOT" />
+        <processor name="org.mule.runtime.module.extension.internal.resources.ExtensionResourcesGeneratorAnnotationProcessor" />
+        <module name="rabbitmqoperationconnectormule" />
+      </profile>
+      <profile name="Annotation profile for TMF-common Mule Extension" enabled="true">
+        <sourceOutputDir name="target/classes/META-INF" />
+        <sourceTestOutputDir name="target/generated-sources/apt-test" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="extension.version" value="0.0.8-SNAPSHOT" />
+        <processor name="org.mule.runtime.module.extension.internal.resources.ExtensionResourcesGeneratorAnnotationProcessor" />
+        <module name="tmf-common-mule" />
+      </profile>
+      <profile name="Annotation profile for Spring-cloud-config-mule" enabled="true">
+        <sourceOutputDir name="target/classes/META-INF" />
+        <sourceTestOutputDir name="target/generated-sources/apt-test" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="extension.version" value="0.0.6-SNAPSHOT" />
+        <processor name="org.mule.runtime.ast.internal.extension.loader.ASTExtensionResourcesGeneratorAnnotationProcessor" />
+        <module name="spring-cloud-config-mule" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbitmqoperationconnectormule" target="1.8" />
+      <module name="rabittssl_main" target="1.8" />
+      <module name="rabittssl_test" target="1.8" />
+      <module name="spring-cloud-config-mule" target="1.8" />
+      <module name="test" target="1.5" />
+      <module name="testspring" target="1.5" />
+      <module name="tmf-common-mule" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
